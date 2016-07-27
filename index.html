@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="">
+		
+		<title>Chat Box</title>
+				
+		<!-- Bootstrap core CSS -->
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.min.css">
+			
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h3>Title of Request <i class="fa fa-pencil fa-fw"></i><i class="fa fa-trash fa-fw"></i></h3>
+
+				<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">opened 22 minutes ago by <strong>Username</strong></p>
+
+				<div id="labels">
+					<span class="label label-default">Label</span>
+					<span class="label label-primary">Label</span>
+					<span class="label label-warning">Label</span>
+					<span class="label label-danger">Label</span>
+				</div>
+								
+				<div class="chat-box row">
+					<div class="col-lg-2 col-sm-3 hidden-xs pic"><img src="http://www.placehold.it/250" class="img-responsive" alt="Username" title="Username"></div>
+					<div class="col-lg-10 col-sm-9 col-xs-12 message">
+						<p class="info"><strong>Testing User</strong></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nihil, laboriosam iste aspernatur perspiciatis labore dolores est sequi similique fugiat magnam voluptatibus aperiam alias eos animi at ipsam laborum modi</p>
+						<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">2 days ago</p>
+					</div>
+				</div>
+
+				<div class="chat-box row right">
+					<div class="col-lg-10 col-sm-9 col-xs-12 message">
+						<p class="info"><strong>Testing User</strong></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nihil, laboriosam iste aspernatur perspiciatis labore dolores est sequi similique fugiat magnam voluptatibus aperiam alias eos animi at ipsam laborum modi</p>
+						<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">8 hours ago</p>
+					</div>
+					<div class="col-lg-2 col-sm-3 hidden-xs pic"><img src="http://www.placehold.it/250" class="img-responsive"></div>
+				</div>
+				
+				<div class="update">
+					<p>
+						<i class="fa fa-pencil"></i>
+						<strong>Username</strong> updated the description to "Lorem ipsum dolor sit amet"
+					</p>
+					<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">an hour ago</p>
+				</div>
+				
+				<hr />
+
+				<div class="update">
+					<p>
+						<i class="fa fa-calendar"></i>
+						<strong>Username</strong> set an appointment for July 10th, 2015
+					</p>
+					<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">40 minutes ago</p>
+				</div>
+				
+				<hr />
+
+				<div class="chat-box row">
+					<div class="col-lg-2 col-sm-3 hidden-xs pic"><img src="http://www.placehold.it/250" class="img-responsive" alt="Username" title="Username"></div>
+					<div class="col-lg-10 col-sm-9 col-xs-12 message">
+						<p class="info"><strong>Testing User</strong></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nihil, laboriosam iste aspernatur perspiciatis labore dolores est sequi similique fugiat magnam voluptatibus aperiam alias eos animi at ipsam laborum modi</p>
+						<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">30 minutes ago</p>
+					</div>
+				</div>
+
+				<div class="chat-box row right">
+					<div class="col-lg-10 col-sm-9 col-xs-12 message">
+						<p class="info"><strong>Testing User</strong></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nihil, laboriosam iste aspernatur perspiciatis labore dolores est sequi similique fugiat magnam voluptatibus aperiam alias eos animi at ipsam laborum modi</p>
+						<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">10 minutes ago</p>
+					</div>
+					<div class="col-lg-2 col-sm-3 hidden-xs pic"><img src="http://www.placehold.it/250" class="img-responsive"></div>
+				</div>
+
+
+				<div class="update">
+					<p>
+						<i class="fa fa-lock"></i>
+						<strong>Username</strong> closed the request.
+					</p>
+					<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">a minute ago</p>
+				</div>
+				
+				<hr />
+
+				<div class="update inline row">
+					<div class="col-sm-1 col-lg-offset-4"><i class="fa fa-unlock-alt"></i></div>
+					<div class="col-sm-6"><strong>Username</strong> reopened the request.
+					<p class="timestamp" title="Wednesday, July 8, 2015 6:20 PM">right now</p></div>
+				</div>
+				
+				<hr />
+
+				<textarea class="form-control" rows="5" placeholder="Please type a comment..."></textarea>
+				<a href="javascript:void(0)" class="btn btn-default" id="submit-btn">Submit</a>
+				
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+	</body>
+</html>
