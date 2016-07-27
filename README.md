@@ -1,3 +1,3 @@
 # Ticket UI Inspiration
 
-![Screenshot](http://i.imgur.com/6oftM9x.png)
+![Screenshot](http://i.imgur.com/SJtOCSC.png)
